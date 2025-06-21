@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    font-family: Arial;
+ }
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tabs{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    width: max-content;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.nav-logo{
+    margin: 1rem;
+    height: 35px;
+    width: 35px;
+    background-image: url(vscode.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-a{
+    color: black;
+    margin: 1rem;
+    font-size: large;
+    font-weight: 500;
+    height: max-content;
+    width: max-content;
+}
+.anchors{
+    height: 100%;
+    width: max-content;
+    align-items: center;  
+}
+.anchors:hover{
+    cursor: pointer;
+}
+.anchors-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.anchors-li{
+    margin: 1rem;
+}
+.anchors-a{
+    color: rgb(35, 43, 43);
+}
+.panel{
+    height: 100%;
+    width: max-content;
+}
+.panel-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.panel-li{
+    margin: 0.5rem;
+    margin-top: 0.9rem;
+    color: rgb(92, 91, 91);
+    border-radius: 5px;
+}
+.panel-input{
+    border: 1px solid gray;
+    outline: none;
+}
+.panel-input:focus{
+    border-color:  blue;
+}
+.panel-i:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.panel-a{
+    height: 100%;
+    width: 50px;
+    border-radius: 5px;
+}
+.panel-btn{
+    height: 25px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #007BFF;
+    font-size: medium;
+    font-weight: 500;
+}
+.panel-btn:hover{
+    cursor: pointer;
+}
+.panel-span{
+    border-radius: 5px;
+}
+.panel-btn:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+}
+.main-section{
+    height: 600px;
+    width: 100%;
+    color: black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    height: max-content;
+    width: 100%;
+    text-align: center;
+}
+.heading-h1{
+    height: max-content;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 500;
+}
+.heading-p1{
+    height: max-content;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0.5rem;  
+}
+.middle-cont{
+    height: 450px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap
+}
+.download{
+    height: 450px;
+    width: 330px;
+    text-align: center;
+}
+.logo1{
+    height: 200px;
+    width: 200px;
+    background-image: url(window.png);
+    background-size: contain;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.logo-btn{
+    height: 70px;
+    width: 200px;
+    background-color: #007BFF;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.btn-span{
+    font-size: 30px;
+}
+.logo-btn:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+}
+table{
+    height: 110px;
+    width: max-content;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.td-s{
+    height: max-content;
+    width: max-content;
+    font-size: medium;
+    color: rgb(80, 79, 79);
+}
+.td-a{
+    height: max-content;
+    width: max-content;
+    background-color: #007BFF;
+    color: white;
+    margin: 2px;
+    font-size: small;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.td-a:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+}
+.logo2{
+    height: 200px;
+    width: 200px;
+    background-image: url(pengin.png);
+    background-size: contain;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.btn-div-2{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo-btn2{
+    height: 70px;
+    width: 150px;
+    background-color: #007BFF;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.logo-btn2:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+}
+.logo3{
+    height: 200px;
+    width: 200px;
+    background-image: url(apple.png);
+    background-size: contain;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.container3{
+    height: max-content;
+    width: 100%;
+    color: rgb(32, 31, 31);
+    text-align: center;
+}
+.cont3-p{
+    font-size: large;
+}
+.cont3-p-a{
+    color: #007BFF;
+    text-decoration: underline;
+}
+.cont3-p-a:hover{
+    cursor: pointer;
+}
+.download-a{
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+.footer-panel{
+    margin-top: 5px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-part{
+    height: 100%;
+    width: 100%;
+}
+.foot-ul{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    list-style-type: none;
+}
+.foot-li{
+    margin: 5px;
+    padding: 0.5rem;
+    color: gray;
+}
+.foot-part2{
+    height: 100%;
+    width: 100%;
+}
+.foot-ul2{
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+    list-style-type: none;
+}
+.foot-li2{
+    margin: 5px;
+    padding: 0.5rem;
+    color: rgb(31, 30, 30);
+}
