@@ -1,7 +1,5 @@
 # 💻 VSCode Page Clone
 
-![VSCode Clone Banner](./vscode-image.png)
-
 This is a **Visual Studio Code web interface clone**, built with the intention to replicate the look and feel of VSCode using modern frontend technologies.
 
 🚀 **Live Demo**: [Click to Visit](https://sadik-vscode.netlify.app/)
