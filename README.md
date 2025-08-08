@@ -31,18 +31,4 @@ This is a **Visual Studio Code web interface clone**, built with the intention t
 
 | Home Page |
 |-----------|
-| ![VSCode Clone Screenshot](https://your-screenshot-url-if-any) |
-
-> _(Optional: Add screenshots of your clone if available.)_
-
----
-
-## 📁 Project Structure
-
-```plaintext
-VSCode-Page-Clone/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+| ![VSCode Clone Screenshot](./vscode-image.png) |
